@@ -1,6 +1,4 @@
-# protomacro
-
-![protomacro](imgur.com image replace me!)
+# Proto Macro Keyboard by DIYCie
 
 *A short description of the keyboard/project*
 
