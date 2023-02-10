@@ -3,6 +3,6 @@
 
 #pragma once
 
-#define ENCODERS_PAD_A {B3, B3}
-#define ENCODERS_PAD_B {B1, B2}
+#define ENCODERS_PAD_A {F4, F4}
+#define ENCODERS_PAD_B {F5, F6}
 #define ENCODER_DIRECTION_FLIP
