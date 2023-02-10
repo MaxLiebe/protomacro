@@ -5,10 +5,26 @@ enum unicode_names {
     MOON
 };
 
+enum custom_keycodes {
+    HELLO
+};
+
 const uint32_t unicode_map[] PROGMEM = {
     [PIZZA]  = 0x1F355, 
     [MOON] = 0x1F315
 };
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case HELLO:
+            if (record->event.pressed) {
+                SEND_STRING("Hello, world!\n");
+            }
+            return false;
+    }
+
+    return true;
+}
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
@@ -23,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───┴───┴───┘
      */
     [0] = LAYOUT_ortho_3x3(
-        X(PIZZA),    KC_B,    KC_C,
+        X(PIZZA),    HELLO,    KC_C,
         KC_D,    KC_E,    KC_F,
         KC_G,    KC_H,    KC_I,
         KC_N,    KC_O
