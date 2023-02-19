@@ -1,23 +1,9 @@
 # Proto Macro Keyboard by DIYCie
 
-*A short description of the keyboard/project*
-
-* Keyboard Maintainer: [MaxLiebe](https://github.com/MaxLiebe)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
-
-Make example for this keyboard (after setting up your build environment):
-
-    make protomacro:default
-
-Flashing example for this keyboard:
-
-    make protomacro:default:flash
-
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+## Setup
+Please refer to the manual (link will follow soon) to get instructions on how to build your keyboard and customize the software.
 
 ## Bootloader
-
 Enter the bootloader in 3 ways:
 
 * **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
