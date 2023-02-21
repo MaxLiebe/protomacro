@@ -1,5 +1,5 @@
 {
-    "manufacturer": "Proto DIYCie 'Vo",
+    "manufacturer": "Proto DIYCie",
     "keyboard_name": "MegaKeyPresser 4000",
     "maintainer": "MaxLiebe",
     "bootloader": "caterina",
@@ -27,7 +27,7 @@
         "vid": "0xAAAA"
     },
     "layouts": {
-        "LAYOUT_ortho_3x3": {
+        "LAYOUT_proto": {
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },

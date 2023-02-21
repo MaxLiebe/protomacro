@@ -1,7 +1,7 @@
 # Proto Macro Keyboard by DIYCie
 
 ## Setup
-Please refer to the manual (link will follow soon) to get instructions on how to build your keyboard and customize the software.
+Please refer to the manual on the [Wiki](https://wiki.proto.utwente.nl/members/workshops) to get instructions on how to build your keyboard and customize the software.
 
 ## Bootloader
 Enter the bootloader in 3 ways:
